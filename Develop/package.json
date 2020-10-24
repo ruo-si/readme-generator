@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "fs": "0.0.1-security",
+    "inquirer": "^6.5.2",
+    "open": "^7.3.0",
+    "util": "^0.12.3"
   }
 }
