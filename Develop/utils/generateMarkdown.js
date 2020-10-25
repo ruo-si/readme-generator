@@ -2,14 +2,24 @@
 function generateMarkdown(data) {
 
   // return the data 
-  return `# ${data.title}`;
-
-  // console.log to see the data
-
   // format custom data to display on page to insert the data with template literals
+  return `# ${data.title}
 
-  // return the data
+  ## Project Description: 
+  ${data.description}
+
+  ## Installation: 
+  ${data.requirements}
   
-}
+  ## Use:
+  ${data.usage}
+
+  ## Collaborators:
+  ${data.credits}
+
+  ## License:
+  ${data.license}
+  `
+};
 
 module.exports = generateMarkdown;

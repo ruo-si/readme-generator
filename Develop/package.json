@@ -1,17 +1,30 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "a program to automate readme creation in command line interface ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "victoria lee",
+  "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
     "inquirer": "^6.5.2",
     "open": "^7.3.0",
     "util": "^0.12.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriacmlee/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generate"
+  ],
+  "bugs": {
+    "url": "https://github.com/victoriacmlee/readme-generator/issues"
+  },
+  "homepage": "https://github.com/victoriacmlee/readme-generator#readme"
 }
