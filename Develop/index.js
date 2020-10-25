@@ -60,7 +60,6 @@ async function writeToFile(fileName, data) {
 
     // if there is error
 
-
 }
 
 // function to initialize program
