@@ -65,13 +65,13 @@ async function writeToFile(fileName, data) {
 // function to initialize program
 async function init() {
 
-    // save response to variable
+    // ask questions with inquirer and save response to variable
     const answers = await inquirer.prompt(questions);
 
-    // generate markdown to format the data set up as html page
+    // generate markdown takes answers and returns a string
     const htmlString = generateMarkdown(answers);
 
-    // call writeToFile function passing answer data
+    // call writeToFile function passing answer data and write a .md file with the title
     await writeAsync(answers.title + ".md", htmlString );
 
 }

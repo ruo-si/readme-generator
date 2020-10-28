@@ -1,13 +1,13 @@
 # sample-readme
 
   ## Project Description: 
-  a program to automate the creation of README.md files for projects
+  automate README.md files
 
   ## Installation: 
-  npm install to install required packages
+  npm i to install required packages
   
   ## Use:
-  this program can be used to provide overview for all kinds of projects
+  this program can be used to prepare an overview for all kinds of projects
 
   ## Collaborators:
   n/a
